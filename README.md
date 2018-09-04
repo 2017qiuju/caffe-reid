@@ -1,3 +1,5 @@
+# This repository is no longer maintained, and I highly recommend these two repositories, e.g., [open-reid](https://github.com/Cysu/open-reid) and [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch).
+
 # A Discriminatively Learned CNN Embedding for Person Re-identification
 
 A [caffe](https://github.com/BVLC/caffe)-based implementation of [this paper](https://arxiv.org/abs/1611.05666),
@@ -55,15 +57,15 @@ Many scripts (e.g initialization, testing, training, extract feature and evaluat
 ## Citation
 Please cite the following papers in your publications if it helps your research:
 
-    @article{zheng2016discriminatively,
-      title={A Discriminatively Learned CNN Embedding for Person Re-identification},
-      author={Zheng, Zhedong and Zheng, Liang and Yang, Yi},
-      journal={TOMM},
-      year={2017}
+    @article{zheng2018discriminatively,
+      title     = {A Discriminatively Learned CNN Embedding for Person Re-identification},
+      author    = {Zheng, Zhedong and Zheng, Liang and Yang, Yi},
+      journal   = {ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
+      year      = {2018}
     }
-    @article{jia2014caffe,
-      Author = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
-      Journal = {arXiv preprint arXiv:1408.5093},
-      Title = {Caffe: Convolutional Architecture for Fast Feature Embedding},
-      Year = {2014}
+    @inproceedings{jia2014caffe,
+      title     = {Caffe: Convolutional Architecture for Fast Feature Embedding},
+      author    = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
+      booktitle = {ACM Multimedia},
+      year      = {2014}
     }
